@@ -84,6 +84,10 @@ if menu == "Topic":
                 background-position: right;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
+                background: rgba(255, 255, 255, 0.3); 
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                z-index: -1;
             }}
             .main {{
                 background: rgba(255, 255, 255, 0.6); /* Light background for text */
