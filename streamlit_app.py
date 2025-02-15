@@ -15,44 +15,14 @@ st.set_page_config(page_title="Advanced Coffee Point Analysis", layout="wide", p
 # Custom CSS
 st.markdown("""
     <style>
-/* Background container */
-        .stApp {
-            background: url("https://your-image-url.com") no-repeat center center fixed;
-            background-size: cover;
-            position: relative;
-        }
-
-        /* Add a semi-transparent blur overlay */
-        .stApp::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.5); /* Adjust transparency */
-            backdrop-filter: blur(15px); /* Apply blur effect */
-            -webkit-backdrop-filter: blur(15px); /* Safari support */
-            z-index: -1;
-        }
-
-        /* Ensure text readability */
-        .main {
-            background: rgba(255, 255, 255, 0.6); /* Light background for text */
-            padding: 15px;
-            border-radius: 10px;
-        }
-
-        /* Styling for the title */
+        /* Ensure custom styling is properly applied */
         .custom-title {
             font-family: 'Arial', sans-serif;
-            color: #2E8B57 !important;
-            font-size: 40px;
+            color: #2E8B57 !important; /* Green color */
+            font-size: 34px;
             text-align: center;
             font-weight: bold;
-            background: rgba(255, 255, 255, 0.5); /* Light background */
-            padding: 10px;
-            border-radius: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Optional shadow */
         }
         [data-testid="stSidebar"] {
             background-image: url("https://images.unsplash.com/photo-1690983325598-dd23fcf8f835?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwdG9wJTIwdmlld3xlbnwwfHwwfHx8MA%3D%3D");
