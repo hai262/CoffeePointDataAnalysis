@@ -80,13 +80,15 @@ if menu == "Topic":
             <style>
             .stApp {{
                 background-image: url("{image_url}");
-                background-size: 77% auto;
+                background-size: 80% auto;
                 background-position: right;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
             }}
             .main {{
-                background-color: rgba(255, 255, 255, 0.8);  # Adds a semi-transparent white overlay
+                background: rgba(255, 255, 255, 0.6); /* Light background for text */
+                padding: 15px;
+                border-radius: 10px;
             }}
             </style>""", unsafe_allow_html=True)
     # Call the function with your image URL
