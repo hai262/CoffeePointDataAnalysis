@@ -15,12 +15,14 @@ st.set_page_config(page_title="Advanced Coffee Point Analysis", layout="wide", p
 # Custom CSS
 st.markdown("""
     <style>
+        /* Ensure custom styling is properly applied */
         .custom-title {
             font-family: 'Arial', sans-serif;
-            color: #4CAF50;
+            color: #2E8B57 !important; /* Green color */
             font-size: 34px;
             text-align: center;
             font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Optional shadow */
         }
         [data-testid="stSidebar"] {
             background-image: url("https://images.unsplash.com/photo-1690983325598-dd23fcf8f835?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwdG9wJTIwdmlld3xlbnwwfHwwfHx8MA%3D%3D");
